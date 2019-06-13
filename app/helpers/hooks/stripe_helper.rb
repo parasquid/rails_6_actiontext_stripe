@@ -1,0 +1,2 @@
+module Hooks::StripeHelper
+end

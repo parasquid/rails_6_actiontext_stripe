@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  namespace :hooks do
+    post 'stripe/events'
+  end
   resources :payments
   resources :articles
 
